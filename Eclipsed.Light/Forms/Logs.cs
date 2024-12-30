@@ -74,5 +74,10 @@ namespace honeypot.Forms
             e.Cancel = true;
             this.Hide();
         }
+
+        private void rtbLogs_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

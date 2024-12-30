@@ -34,23 +34,25 @@
             // 
             // rtbLogs
             // 
-            this.rtbLogs.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
+            this.rtbLogs.BackColor = System.Drawing.Color.Indigo;
             this.rtbLogs.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtbLogs.Cursor = System.Windows.Forms.Cursors.Cross;
             this.rtbLogs.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rtbLogs.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rtbLogs.ForeColor = System.Drawing.Color.White;
+            this.rtbLogs.ForeColor = System.Drawing.Color.Black;
             this.rtbLogs.Location = new System.Drawing.Point(0, 0);
             this.rtbLogs.Name = "rtbLogs";
             this.rtbLogs.ReadOnly = true;
             this.rtbLogs.Size = new System.Drawing.Size(484, 261);
             this.rtbLogs.TabIndex = 0;
             this.rtbLogs.Text = "";
+            this.rtbLogs.TextChanged += new System.EventHandler(this.rtbLogs_TextChanged);
             // 
             // Logs
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(30)))));
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(484, 261);
             this.Controls.Add(this.rtbLogs);
             this.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));

@@ -68,7 +68,7 @@ namespace honeypot
 
         private void lblFooter_Click(object sender, EventArgs e)
         {
-            Process.Start("https://eclipsed.top/light");
+            Process.Start("https://eclipsed.top/Ninny");
         }
 
         private void btnCopyBhvrSession_Click(object sender, EventArgs e)
@@ -279,7 +279,7 @@ namespace honeypot
             DavidBackground = !DavidBackground;
             if (DavidBackground)
             {
-                this.BackgroundImage = Resources.roblox_david;
+                this.BackgroundImage = Resources.Ninny;
                 ToggleMusic(true);
             }
             else
@@ -378,5 +378,64 @@ namespace honeypot
             }
         }
 
+        private void lblVersion_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gbData_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gbOptions_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblUnlockAll_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblhStatus_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblBhvrSession_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblStatus_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblBanStatus_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EclipsedDiscord_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tooltip_Popup(object sender, PopupEventArgs e)
+        {
+
+        }
+
+        private void MainDiscordInvite_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

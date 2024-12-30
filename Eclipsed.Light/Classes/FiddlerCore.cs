@@ -190,12 +190,12 @@ namespace honeypot
                 #endregion
 
                 #region Ban Status
-                if (session.uriContains("api/v1/players/ban/status"))
+                if (session.uriContains("loginWithTokenBody"))
                 {
                     session.utilDecodeResponse();
                     var body = session.GetResponseBodyAsString();
 
-                    if (body.Contains("\"isBanned\":true"))
+                    if (body.Contains("authThirdPartyBan"))
                     {
                         Main.instance.UpdateBanStatus(true);
                     }
